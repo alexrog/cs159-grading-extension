@@ -9,5 +9,34 @@
                 }
             ]
         }
+    ],
+    "hw01": [
+        {
+            "message": "The float data type is required.",
+            "deductions" : [
+                {
+                    "type": "technique",
+                    "hw": -1.0
+                }
+            ]
+        },
+        {
+            "message": "math.h is not allowed for this homework.",
+            "deductions" : [
+                {
+                    "type": "technique",
+                    "hw": -1.0
+                }
+            ]
+        },
+        {
+            "message": "No use of symbolic or defined constants.",
+            "deductions": [
+                {
+                    "type": "technique",
+                    "hw": -0.2
+                }
+            ]
+        }
     ]
 }
